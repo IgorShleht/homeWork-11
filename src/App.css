@@ -1,0 +1,28 @@
+.App {
+	width: 100vw;
+	height: 100vh;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 1920px;
+	height: 600px;
+	border: 1px solid black;
+	background: url('./background.png') no-repeat 50% / cover;
+}
+
+@media (max-width: 1260px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		height: 1000px;
+		padding: 20px 0px;
+	}
+}

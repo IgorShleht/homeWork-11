@@ -1,0 +1,312 @@
+.mainMatch {
+	width: 780px;
+	height: 380px;
+	position: relative;
+	box-sizing: border-box;
+	background-color: #1b232c;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0px 24px;
+}
+
+.info {
+	box-sizing: border-box;
+	padding: 32px 24px;
+}
+.mainMatch:hover {
+	transform: scale(1.05);
+}
+
+.title {
+	font-family: 'Roboto';
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+}
+.block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 162px;
+}
+
+.team {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 220px;
+}
+
+.team_name {
+	font-family: Jost;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.logo {
+	width: 120px;
+	height: 120px;
+}
+
+.timer {
+	margin: 20px 24px 0px 24px;
+	width: 244px;
+	height: 66px;
+	padding: 8px 0px;
+	background-color: rgba(204, 18, 45, 0.3);
+	font-family: Jost;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	box-sizing: border-box;
+	line-height: 50px;
+	color: #ffffff;
+	text-align: center;
+}
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+	height: 56px;
+}
+
+.place {
+	display: flex;
+	flex-direction: column;
+	width: 244px;
+}
+
+.date {
+	font-family: Jost;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: -0.165px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.stadium {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #a5acb8;
+}
+
+.betting {
+	display: flex;
+	padding-top: 5px;
+	flex-direction: row;
+	justify-content: center;
+	box-sizing: border-box;
+	width: 218px;
+	font-style: italic;
+}
+
+.bet {
+	display: flex;
+	padding: 2px 12px;
+	flex-direction: column;
+	align-items: center;
+}
+
+.coefficient {
+	border: 3px solid #ffffff;
+	border-radius: 27px;
+	background-color: #394552;
+	width: 57px;
+	height: 46px;
+	font-size: 12px;
+	font-style: italic;
+	color: white;
+}
+
+.active {
+	background-color: #27af11;
+}
+
+.coefficient_text {
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #a5acb8;
+}
+
+.buy_ticket {
+	width: 244px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.buy_ticket > button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 14px 24px;
+	background-color: #cc122d;
+	border: none;
+	color: whitesmoke;
+	text-transform: uppercase;
+	width: 179px;
+	height: 48px;
+	box-sizing: border-box;
+	padding: 4px 0px 4px 32px;
+	cursor: pointer;
+}
+
+.ticket_logo {
+	padding-right: 5px;
+}
+.watch {
+	font-family: Jost;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 24px;
+	height: 52px;
+	border: none;
+	box-sizing: border-box;
+	padding: 8px 16px;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(
+		0deg,
+		#9d9e9f -5%,
+		#c4c7c9 71.21%,
+		#a0a2a4 108.08%
+	);
+	color: #2c2c2c;
+}
+
+.play {
+	margin-left: 16px;
+	position: relative;
+	width: 36px;
+	height: 36px;
+	border-radius: 100%;
+	background: #27af11;
+	cursor: pointer;
+}
+
+.play > img {
+	position: absolute;
+	top: 50%;
+	left: 14px;
+	transform: translateY(-50%);
+}
+
+@media (max-width: 1800px) {
+	.mainMatch {
+		width: 650px;
+	}
+
+	.timer {
+		font-size: 32px;
+	}
+}
+
+@media (max-width: 1500px) {
+	.mainMatch {
+		width: 550px;
+	}
+
+	.betting {
+		width: 280px;
+	}
+	.timer {
+		font-size: 26px;
+	}
+	.bet {
+		padding: 2px 4px;
+	}
+	.coefficient {
+		width: 45px;
+		height: 35px;
+	}
+
+	.date {
+		font-size: 18px;
+	}
+
+	.stadium {
+		font-size: 14px;
+	}
+	.buy_ticket > button {
+		padding: 14px 14px;
+		width: 159px;
+	}
+}
+
+@media (max-width: 1370px) {
+	.mainMatch {
+		width: 450px;
+	}
+	.betting {
+		width: 120px;
+	}
+
+	.timer {
+		font-size: 20px;
+	}
+	.team {
+		width: 120px;
+	}
+
+	.team_name {
+		font-size: 20px;
+	}
+
+	.logo {
+		width: 100px;
+		height: 100px;
+	}
+	.bet {
+		padding: 2px 4px;
+	}
+
+	.date {
+		font-size: 14px;
+	}
+
+	.stadium {
+		font-size: 12px;
+	}
+	.buy_ticket > button {
+		padding: 0px 8px;
+		width: 100px;
+	}
+
+	.watch {
+		font-size: 20px;
+	}
+}
+@media (max-width: 1260px) {
+	.mainMatch {
+		order: -1;
+	}
+}
+
+@media (max-width: 576px) {
+	.footer {
+		margin-top: 16px;
+		display: flex;
+		flex-direction: row;
+	}
+}

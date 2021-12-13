@@ -1,0 +1,20 @@
+.score {
+	padding-top: 8px;
+	width: 96px;
+	height: 66px;
+	font-family: 'Jost';
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 58px;
+	text-align: center;
+	color: #5c6168;
+	margin-top: 25px;
+}
+
+.btn_tick {
+	height: 48px;
+	width: 57px;
+	background-color: #cc122d;
+	border: none;
+	cursor: pointer;
+}

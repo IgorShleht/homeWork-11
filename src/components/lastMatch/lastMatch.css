@@ -1,0 +1,109 @@
+.match_mini {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: #1b232c;
+	backdrop-filter: blur(5px);
+	width: 378px;
+	height: 292px;
+	padding: 32px 16px;
+	box-sizing: border-box;
+	background-color: #1b232c;
+	color: white;
+}
+
+.block_mini {
+	display: flex;
+	justify-content: space-around;
+	height: 146px;
+}
+
+.team_mini {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 125px;
+	height: 106px;
+	margin-top: 10px;
+}
+
+.team_name_mini {
+	font-family: Jost;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.logo_mini {
+	width: 88px;
+	height: 88px;
+}
+
+.result {
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+	color: #cc122d;
+	font-family: Jost;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	margin-top: 30px;
+	width: 96px;
+	height: 66px;
+	box-sizing: border-box;
+	padding: 8px 0px;
+}
+.footer_mini {
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+}
+
+.place_mini {
+	display: flex;
+	flex-direction: column;
+	width: 244px;
+}
+
+.date_mini {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.stadium_mini {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #a5acb8;
+}
+
+.btn_arrow {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 14px;
+	position: static;
+	width: 57px;
+	height: 48px;
+	left: 289px;
+	top: 0px;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	background-color: #1b232c;
+	box-sizing: border-box;
+	cursor: pointer;
+}
